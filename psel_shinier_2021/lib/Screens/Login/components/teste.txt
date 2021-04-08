@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:psel_shinier_2021/Screens/Login/components/background.dart';
-import 'package:psel_shinier_2021/Screens/Welcome/welcome_screen.dart';
 import 'package:switcher_button/switcher_button.dart';
 import 'package:psel_shinier_2021/components/rounded_button.dart';
 import 'package:psel_shinier_2021/components/rounded_input_field.dart';
@@ -43,16 +42,7 @@ class Body extends StatelessWidget {
             ),
             RoundedButton(
               text: "Entrar",
-              press: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return WelcomeScreen();
-                    },
-                  ),
-                );
-              },
+              press: () {},
             ),
             SizedBox(height: size.height * 0.03),
             SwitcherButton(
